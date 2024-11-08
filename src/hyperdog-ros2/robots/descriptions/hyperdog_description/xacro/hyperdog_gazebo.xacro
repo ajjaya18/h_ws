@@ -7,8 +7,8 @@
     <xacro:macro name="gz_hip">
         <mu1>0.2</mu1>
         <mu2>0.2</mu2>  
-        <kp value="10000.0"/>
-        <kd value="1.0"/>
+       <!-- <kp value="10000.0"/> 
+        <kd value="1.0"/> -->
         <maxVel>0.01</maxVel>
         <self_collide>1</self_collide>
         <material>Gazebo/PioneerBody</material>
@@ -31,8 +31,8 @@
         <mu1>0.2</mu1>
         <mu2>0.2</mu2>    
         <fdir1>1 0 0</fdir1>
-        <kp value="10000.0"/>
-        <kd>1.0</kd>
+       <!-- <kp value="10000.0"/> -->
+        <!--<kd>1.0</kd>-->
         <maxVel>0.01</maxVel>
         <self_collide>1</self_collide> 
         <material>Gazebo/DarkYellow</material>
@@ -46,7 +46,7 @@
         <mu2>0.9</mu2>
         <fdir1>1 0 0</fdir1>
         <kp value="10000.0"/>
-        <kd value="100.0" />
+        <kd value="1.0" />
         <maxVel>0.0</maxVel>
         <maxContacts>1</maxContacts>
         <gravity>true</gravity>
