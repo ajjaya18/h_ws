@@ -7,7 +7,7 @@
     <xacro:macro name="gz_hip">
         <mu1>0.2</mu1>
         <mu2>0.2</mu2>  
-        <kp value="2147483647.0"/>
+        <kp value="10000.0"/>
         <kd value="1.0"/>
         <maxVel>0.01</maxVel>
         <self_collide>1</self_collide>
@@ -17,7 +17,8 @@
     <xacro:macro name="gz_uleg">
         <mu1>0.2</mu1>
         <mu2>0.2</mu2> 
-        <kp value="2147483647.0"/>
+    <!--<kp value="2147483647.0"/> -->
+        <kp value="10000.0"/>
         <kd value="1.0"/>
         <maxVel>0.01</maxVel>
         <self_collide>1</self_collide>
@@ -30,7 +31,7 @@
         <mu1>0.2</mu1>
         <mu2>0.2</mu2>    
         <fdir1>1 0 0</fdir1>
-        <kp>2147483647.0</kp>
+        <kp value="10000.0"/>
         <kd>1.0</kd>
         <maxVel>0.01</maxVel>
         <self_collide>1</self_collide> 
@@ -44,7 +45,7 @@
         <mu1>0.9</mu1>
         <mu2>0.9</mu2>
         <fdir1>1 0 0</fdir1>
-        <kp value="2147483647.0" />
+        <kp value="10000.0"/>
         <kd value="100.0" />
         <maxVel>0.0</maxVel>
         <maxContacts>1</maxContacts>
@@ -62,10 +63,10 @@
 
     <!-- body -->
     <gazebo reference="base_link">
-        <mu1>0.05</mu1>
-        <mu2>0.05</mu2>
-        <!-- <kp>1000000.0</kp>
-        <kd>1.0</kd> -->
+        <mu1>0.2</mu1>
+        <mu2>0.2</mu2>
+        <kp>10000.0</kp>
+        <kd>1.0</kd> 
         <maxVel>0.01</maxVel>
         <material>Gazebo/DarkGrey  </material>
     </gazebo>
