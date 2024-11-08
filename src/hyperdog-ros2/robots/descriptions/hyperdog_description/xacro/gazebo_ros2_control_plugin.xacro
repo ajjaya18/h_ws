@@ -7,75 +7,131 @@
             <plugin>gazebo_ros2_control/GazeboSystem</plugin>
         </hardware>
 
+        <!-- FRONT RIGHT LEG -->
         <joint name="FR_hip_joint">
-            <command_interface name="effort"/>
-            <state_interface name="position"/>
+            <command_interface name="effort">
+                <param name="min">-50.0</param>
+                <param name="max">50.0</param>
+            </command_interface>
+            <state_interface name="position">
+                <param name="initial_value">0.0</param>
+            </state_interface>
             <state_interface name="velocity"/>
         </joint>
-
         <joint name="FR_uleg_joint">
-            <command_interface name="effort"/>
-            <state_interface name="position"/>
+            <command_interface name="effort">
+                <param name="min">-50.0</param>
+                <param name="max">50.0</param>
+            </command_interface>
+            <state_interface name="position">
+                <param name="initial_value">0.0</param>
+            </state_interface>
             <state_interface name="velocity"/>
         </joint>
-
         <joint name="FR_lleg_joint">
-            <command_interface name="effort"/>
-            <state_interface name="position"/>
+            <command_interface name="effort">
+                <param name="min">-50.0</param>
+                <param name="max">50.0</param>
+            </command_interface>
+            <state_interface name="position">
+                <param name="initial_value">0.45</param>
+            </state_interface>
             <state_interface name="velocity"/>
         </joint>
 
+        <!-- FRONT LEFT LEG -->
         <joint name="FL_hip_joint">
-            <command_interface name="effort"/>
-            <state_interface name="position"/>
+            <command_interface name="effort">
+                <param name="min">-50.0</param>
+                <param name="max">50.0</param>
+            </command_interface>
+            <state_interface name="position">
+                <param name="initial_value">0.0</param>
+            </state_interface>
             <state_interface name="velocity"/>
         </joint>
-
         <joint name="FL_uleg_joint">
-            <command_interface name="effort"/>
-            <state_interface name="position"/>
+            <command_interface name="effort">
+                <param name="min">-50.0</param>
+                <param name="max">50.0</param>
+            </command_interface>
+            <state_interface name="position">
+                <param name="initial_value">0.0</param>
+            </state_interface>
             <state_interface name="velocity"/>
         </joint>
-
         <joint name="FL_lleg_joint">
-            <command_interface name="effort"/>
-            <state_interface name="position"/>
+            <command_interface name="effort">
+                <param name="min">-50.0</param>
+                <param name="max">50.0</param>
+            </command_interface>
+            <state_interface name="position">
+                <param name="initial_value">0.45</param>
+            </state_interface>
             <state_interface name="velocity"/>
         </joint>
 
+        <!-- BACK RIGHT LEG -->
         <joint name="BR_hip_joint">
-            <command_interface name="effort"/>
-            <state_interface name="position"/>
+            <command_interface name="effort">
+                <param name="min">-50.0</param>
+                <param name="max">50.0</param>
+            </command_interface>
+            <state_interface name="position">
+                <param name="initial_value">0.0</param>
+            </state_interface>
             <state_interface name="velocity"/>
         </joint>
-
         <joint name="BR_uleg_joint">
-            <command_interface name="effort"/>
-            <state_interface name="position"/>
+            <command_interface name="effort">
+                <param name="min">-50.0</param>
+                <param name="max">50.0</param>
+            </command_interface>
+            <state_interface name="position">
+                <param name="initial_value">0.0</param>
+            </state_interface>
             <state_interface name="velocity"/>
         </joint>
-
         <joint name="BR_lleg_joint">
-            <command_interface name="effort"/>
-            <state_interface name="position"/>
+            <command_interface name="effort">
+                <param name="min">-50.0</param>
+                <param name="max">50.0</param>
+            </command_interface>
+            <state_interface name="position">
+                <param name="initial_value">0.45</param>
+            </state_interface>
             <state_interface name="velocity"/>
         </joint>
 
+        <!-- BACK LEFT LEG -->
         <joint name="BL_hip_joint">
-            <command_interface name="effort"/>
-            <state_interface name="position"/>
+            <command_interface name="effort">
+                <param name="min">-50.0</param>
+                <param name="max">50.0</param>
+            </command_interface>
+            <state_interface name="position">
+                <param name="initial_value">0.0</param>
+            </state_interface>
             <state_interface name="velocity"/>
         </joint>
-
         <joint name="BL_uleg_joint">
-            <command_interface name="effort"/>
-            <state_interface name="position"/>
+            <command_interface name="effort">
+                <param name="min">-50.0</param>
+                <param name="max">50.0</param>
+            </command_interface>
+            <state_interface name="position">
+                <param name="initial_value">0.0</param>
+            </state_interface>
             <state_interface name="velocity"/>
         </joint>
-
         <joint name="BL_lleg_joint">
-            <command_interface name="effort"/>
-            <state_interface name="position"/>
+            <command_interface name="effort">
+                <param name="min">-50.0</param>
+                <param name="max">50.0</param>
+            </command_interface>
+            <state_interface name="position">
+                <param name="initial_value">0.45</param>
+            </state_interface>
             <state_interface name="velocity"/>
         </joint>
     </ros2_control>
@@ -83,7 +139,7 @@
     <!-- CONFIGURE THE GAZEBO PLUGIN -->
     <gazebo>
         <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
-          <parameters>$(find hyperdog_description)/config/ros_control/ros_control.yaml</parameters>
+            <parameters>$(find hyperdog_description)/config/ros_control/ros_control.yaml</parameters>
         </plugin>
     </gazebo>
 
