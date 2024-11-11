@@ -33,17 +33,17 @@ joint_group_effort_controller:
     
     gains:
       # PID Uniforme para todas las articulaciones
-      FL_hip_joint        : {p: 45.0, i: 4.5, d: 0.5}
-      FR_hip_joint        : {p: 45.0, i: 4.5, d: 0.5}
-      BL_hip_joint        : {p: 45.0, i: 4.5, d: 0.5}
-      BR_hip_joint        : {p: 45.0, i: 4.5, d: 0.5}
+      FL_hip_joint        : {p: 45.0, i: 0.0, d: 0.5}
+      FR_hip_joint        : {p: 45.0, i: 0.0, d: 0.5}
+      BL_hip_joint        : {p: 45.0, i: 0.0, d: 0.5}
+      BR_hip_joint        : {p: 45.0, i: 0.0, d: 0.5}
 
-      FL_uleg_joint       : {p: 45.0, i: 4.5, d: 0.5}
-      FR_uleg_joint       : {p: 45.0, i: 4.5, d: 0.5}
-      BL_uleg_joint       : {p: 45.0, i: 4.5, d: 0.5}
-      BR_uleg_joint       : {p: 45.0, i: 4.5, d: 0.5}
+      FL_uleg_joint       : {p: 45.0, i: 0.0, d: 0.5}
+      FR_uleg_joint       : {p: 45.0, i: 0.0, d: 0.5}
+      BL_uleg_joint       : {p: 45.0, i: 0.0, d: 0.5}
+      BR_uleg_joint       : {p: 45.0, i: 0.0, d: 0.5}
 
-      FL_lleg_joint       : {p: 45.0, i: 4.5, d: 0.5}
-      FR_lleg_joint       : {p: 45.0, i: 4.5, d: 0.5}
-      BL_lleg_joint       : {p: 45.0, i: 4.5, d: 0.5}
-      BR_lleg_joint       : {p: 45.0, i: 4.5, d: 0.5}
+      FL_lleg_joint       : {p: 45.0, i: 0.0, d: 0.5}
+      FR_lleg_joint       : {p: 45.0, i: 0.0, d: 0.5}
+      BL_lleg_joint       : {p: 45.0, i: 0.0, d: 0.5}
+      BR_lleg_joint       : {p: 45.0, i: 0.0, d: 0.5}
