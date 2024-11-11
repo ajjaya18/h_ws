@@ -32,18 +32,18 @@ joint_group_effort_controller:
       - velocity
     
     gains:
-      FL_hip_joint        : {p: 15.0, i: 0.0, d: 0.005}
-      FL_uleg_joint       : {p: 15.0, i: 0.0, d: 0.005}
-      FL_lleg_joint       : {p: 15.0, i: 0.0, d: 0.005}
-      FR_hip_joint        : {p: 15.0, i: 0.0, d: 0.005}
-      FR_uleg_joint       : {p: 15.0, i: 0.0, d: 0.005}
-      FR_lleg_joint       : {p: 15.0, i: 0.0, d: 0.005}
-      BL_hip_joint        : {p: 15.0, i: 0.0, d: 0.005}
-      BL_uleg_joint       : {p: 15.0, i: 0.0, d: 0.005}
-      BL_lleg_joint       : {p: 15.0, i: 0.0, d: 0.005}
-      BR_hip_joint        : {p: 15.0, i: 0.0, d: 0.005}
-      BR_uleg_joint       : {p: 15.0, i: 0.0, d: 0.005}
-      BR_lleg_joint       : {p: 15.0, i: 0.0, d: 0.005}
+      FL_hip_joint        : {p: 15.0, i: 0.0, d: 1.005}
+      FL_uleg_joint       : {p: 15.0, i: 0.0, d: 1.005}
+      FL_lleg_joint       : {p: 15.0, i: 0.0, d: 1.005}
+      FR_hip_joint        : {p: 15.0, i: 0.0, d: 1.005}
+      FR_uleg_joint       : {p: 15.0, i: 0.0, d: 1.005}
+      FR_lleg_joint       : {p: 15.0, i: 0.0, d: 1.005}
+      BL_hip_joint        : {p: 15.0, i: 0.0, d: 1.005}
+      BL_uleg_joint       : {p: 15.0, i: 0.0, d: 1.005}
+      BL_lleg_joint       : {p: 15.0, i: 0.0, d: 1.005}
+      BR_hip_joint        : {p: 15.0, i: 0.0, d: 1.005}
+      BR_uleg_joint       : {p: 15.0, i: 0.0, d: 1.005}
+      BR_lleg_joint       : {p: 15.0, i: 0.0, d: 1.005}
       
       # {p: 67.5, d: 0.3, i: 0.1, i_clamp: 1.5}
     # action_monitor_rate: 10.0 # Defaults to 20
