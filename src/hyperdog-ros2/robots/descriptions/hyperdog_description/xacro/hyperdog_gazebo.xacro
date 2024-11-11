@@ -5,9 +5,9 @@
     <xacro:include filename="physics.xacro" /> 
 
     <xacro:macro name="gz_hip">
-        <mu1>0.2</mu1>
-        <mu2>0.2</mu2>  
-        <kp value="2147483647.0"/>
+        <mu1>0.8</mu1>
+        <mu2>0.8</mu2>  
+        <kp value="1000000.0"/>
         <kd value="1.0"/>
         <maxVel>0.01</maxVel>
         <self_collide>1</self_collide>
@@ -15,9 +15,9 @@
     </xacro:macro>
 
     <xacro:macro name="gz_uleg">
-        <mu1>0.2</mu1>
-        <mu2>0.2</mu2> 
-        <kp value="2147483647.0"/>
+        <mu1>0.8</mu1>
+        <mu2>0.8</mu2> 
+        <kp value="1000000.0"/>
         <kd value="1.0"/>
         <maxVel>0.01</maxVel>
         <self_collide>1</self_collide>
@@ -27,10 +27,10 @@
     </xacro:macro>
 
     <xacro:macro name="gz_lleg">
-        <mu1>0.2</mu1>
-        <mu2>0.2</mu2>    
+        <mu1>0.8</mu1>
+        <mu2>0.8</mu2>    
         <fdir1>1 0 0</fdir1>
-        <kp>2147483647.0</kp>
+        <kp>1000000.0</kp>
         <kd>1.0</kd>
         <maxVel>0.01</maxVel>
         <self_collide>1</self_collide> 
@@ -44,8 +44,8 @@
         <mu1>0.9</mu1>
         <mu2>0.9</mu2>
         <fdir1>1 0 0</fdir1>
-        <kp value="2147483647.0" />
-        <kd value="100.0" />
+        <kp value="1000000.0" />
+        <kd value="1.0" />
         <maxVel>0.0</maxVel>
         <maxContacts>1</maxContacts>
         <gravity>true</gravity>
