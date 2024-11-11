@@ -10,8 +10,8 @@
         <!-- FRONT RIGHT LEG -->
         <joint name="FR_hip_joint">
             <command_interface name="effort">
-                <param name="min">-50.0</param>
-                <param name="max">50.0</param>
+                <param name="min">-100.0</param>
+                <param name="max">100.0</param>
             </command_interface>
             <state_interface name="position">
                 <param name="initial_value">0.0</param>
@@ -20,21 +20,21 @@
         </joint>
         <joint name="FR_uleg_joint">
             <command_interface name="effort">
-                <param name="min">-50.0</param>
-                <param name="max">50.0</param>
+                <param name="min">-100.0</param>
+                <param name="max">100.0</param>
             </command_interface>
             <state_interface name="position">
-                <param name="initial_value">1.0</param>
+                <param name="initial_value">0.785</param>
             </state_interface>
             <state_interface name="velocity"/>
         </joint>
         <joint name="FR_lleg_joint">
             <command_interface name="effort">
-                <param name="min">-50.0</param>
-                <param name="max">50.0</param>
+                <param name="min">-100.0</param>
+                <param name="max">100.0</param>
             </command_interface>
             <state_interface name="position">
-                <param name="initial_value">1.5</param>
+                <param name="initial_value">-1.57</param>
             </state_interface>
             <state_interface name="velocity"/>
         </joint>
@@ -42,8 +42,8 @@
         <!-- FRONT LEFT LEG -->
         <joint name="FL_hip_joint">
             <command_interface name="effort">
-                <param name="min">-50.0</param>
-                <param name="max">50.0</param>
+                <param name="min">-100.0</param>
+                <param name="max">100.0</param>
             </command_interface>
             <state_interface name="position">
                 <param name="initial_value">0.0</param>
@@ -52,21 +52,21 @@
         </joint>
         <joint name="FL_uleg_joint">
             <command_interface name="effort">
-                <param name="min">-50.0</param>
-                <param name="max">50.0</param>
+                <param name="min">-100.0</param>
+                <param name="max">100.0</param>
             </command_interface>
             <state_interface name="position">
-                <param name="initial_value">1.0</param>
+                <param name="initial_value">0.785</param>
             </state_interface>
             <state_interface name="velocity"/>
         </joint>
         <joint name="FL_lleg_joint">
             <command_interface name="effort">
-                <param name="min">-50.0</param>
-                <param name="max">50.0</param>
+                <param name="min">-100.0</param>
+                <param name="max">100.0</param>
             </command_interface>
             <state_interface name="position">
-                <param name="initial_value">1.5</param>
+                <param name="initial_value">-1.57</param>
             </state_interface>
             <state_interface name="velocity"/>
         </joint>
@@ -74,8 +74,8 @@
         <!-- BACK RIGHT LEG -->
         <joint name="BR_hip_joint">
             <command_interface name="effort">
-                <param name="min">-50.0</param>
-                <param name="max">50.0</param>
+                <param name="min">-100.0</param>
+                <param name="max">100.0</param>
             </command_interface>
             <state_interface name="position">
                 <param name="initial_value">0.0</param>
@@ -84,21 +84,21 @@
         </joint>
         <joint name="BR_uleg_joint">
             <command_interface name="effort">
-                <param name="min">-50.0</param>
-                <param name="max">50.0</param>
+                <param name="min">-100.0</param>
+                <param name="max">100.0</param>
             </command_interface>
             <state_interface name="position">
-                <param name="initial_value">1.0</param>
+                <param name="initial_value">0.785</param>
             </state_interface>
             <state_interface name="velocity"/>
         </joint>
         <joint name="BR_lleg_joint">
             <command_interface name="effort">
-                <param name="min">-50.0</param>
-                <param name="max">50.0</param>
+                <param name="min">-100.0</param>
+                <param name="max">100.0</param>
             </command_interface>
             <state_interface name="position">
-                <param name="initial_value">1.5</param>
+                <param name="initial_value">-1.57</param>
             </state_interface>
             <state_interface name="velocity"/>
         </joint>
@@ -106,8 +106,8 @@
         <!-- BACK LEFT LEG -->
         <joint name="BL_hip_joint">
             <command_interface name="effort">
-                <param name="min">-50.0</param>
-                <param name="max">50.0</param>
+                <param name="min">-100.0</param>
+                <param name="max">100.0</param>
             </command_interface>
             <state_interface name="position">
                 <param name="initial_value">0.0</param>
@@ -116,21 +116,21 @@
         </joint>
         <joint name="BL_uleg_joint">
             <command_interface name="effort">
-                <param name="min">-50.0</param>
-                <param name="max">50.0</param>
+                <param name="min">-100.0</param>
+                <param name="max">100.0</param>
             </command_interface>
             <state_interface name="position">
-                <param name="initial_value">1.0</param>
+                <param name="initial_value">0.785</param>
             </state_interface>
             <state_interface name="velocity"/>
         </joint>
         <joint name="BL_lleg_joint">
             <command_interface name="effort">
-                <param name="min">-50.0</param>
-                <param name="max">50.0</param>
+                <param name="min">-100.0</param>
+                <param name="max">100.0</param>
             </command_interface>
             <state_interface name="position">
-                <param name="initial_value">1.5</param>
+                <param name="initial_value">-1.57</param>
             </state_interface>
             <state_interface name="velocity"/>
         </joint>
