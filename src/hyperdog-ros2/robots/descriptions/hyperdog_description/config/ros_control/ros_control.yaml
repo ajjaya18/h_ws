@@ -32,20 +32,18 @@ joint_group_effort_controller:
       - velocity
     
     gains:
-      # Caderas (Hip joints)
-      FL_hip_joint        : {p: 63.69, i: 6.37, d: 0.22}
-      FR_hip_joint        : {p: 63.69, i: 6.37, d: 0.22}
-      BL_hip_joint        : {p: 63.69, i: 6.37, d: 0.22}
-      BR_hip_joint        : {p: 63.69, i: 6.37, d: 0.22}
-      
-      # Rodillas superiores (Upper leg joints)
-      FL_uleg_joint       : {p: 31.85, i: 3.19, d: 0.44}
-      FR_uleg_joint       : {p: 31.85, i: 3.19, d: 0.44}
-      BL_uleg_joint       : {p: 31.85, i: 3.19, d: 0.44}
-      BR_uleg_joint       : {p: 31.85, i: 3.19, d: 0.44}
+      # PID Uniforme para todas las articulaciones
+      FL_hip_joint        : {p: 45.0, i: 4.5, d: 0.5}
+      FR_hip_joint        : {p: 45.0, i: 4.5, d: 0.5}
+      BL_hip_joint        : {p: 45.0, i: 4.5, d: 0.5}
+      BR_hip_joint        : {p: 45.0, i: 4.5, d: 0.5}
 
-      # Rodillas inferiores (Lower leg joints)
-      FL_lleg_joint       : {p: 38.20, i: 3.82, d: 0.37}
-      FR_lleg_joint       : {p: 38.20, i: 3.82, d: 0.37}
-      BL_lleg_joint       : {p: 38.20, i: 3.82, d: 0.37}
-      BR_lleg_joint       : {p: 38.20, i: 3.82, d: 0.37}
+      FL_uleg_joint       : {p: 45.0, i: 4.5, d: 0.5}
+      FR_uleg_joint       : {p: 45.0, i: 4.5, d: 0.5}
+      BL_uleg_joint       : {p: 45.0, i: 4.5, d: 0.5}
+      BR_uleg_joint       : {p: 45.0, i: 4.5, d: 0.5}
+
+      FL_lleg_joint       : {p: 45.0, i: 4.5, d: 0.5}
+      FR_lleg_joint       : {p: 45.0, i: 4.5, d: 0.5}
+      BL_lleg_joint       : {p: 45.0, i: 4.5, d: 0.5}
+      BR_lleg_joint       : {p: 45.0, i: 4.5, d: 0.5}
