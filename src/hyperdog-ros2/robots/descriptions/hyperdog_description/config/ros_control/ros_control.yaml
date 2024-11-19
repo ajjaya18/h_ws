@@ -1,7 +1,7 @@
 controller_manager:
   ros__parameters:
     use_sim_time: True
-    update_rate: 1000  # Hz
+    update_rate: 50  # Hz
 
     joint_states_controller:
       type: joint_state_broadcaster/JointStateBroadcaster
@@ -33,17 +33,17 @@ joint_group_effort_controller:
     
     gains:
       # PID Uniforme para todas las articulaciones
-      FL_hip_joint        : {p: 45.0, i: 0.0, d: 0.5}
-      FR_hip_joint        : {p: 45.0, i: 0.0, d: 0.5}
-      BL_hip_joint        : {p: 45.0, i: 0.0, d: 0.5}
-      BR_hip_joint        : {p: 45.0, i: 0.0, d: 0.5}
+      FL_hip_joint        : {p: 180.0, i: 20.0, d: 0.9}
+      FR_hip_joint        : {p: 180.0, i: 20.0, d: 0.9}
+      BL_hip_joint        : {p: 180.0, i: 20.0, d: 0.5}
+      BR_hip_joint        : {p: 180.0, i: 20.0, d: 0.5}
 
-      FL_uleg_joint       : {p: 45.0, i: 0.0, d: 0.5}
-      FR_uleg_joint       : {p: 45.0, i: 0.0, d: 0.5}
-      BL_uleg_joint       : {p: 45.0, i: 0.0, d: 0.5}
-      BR_uleg_joint       : {p: 45.0, i: 0.0, d: 0.5}
+      FL_uleg_joint       : {p: 180.0, i: 20.0, d: 0.9}
+      FR_uleg_joint       : {p: 180.0, i: 20.0, d: 0.9}
+      BL_uleg_joint       : {p: 180.0, i: 20.0, d: 0.9}
+      BR_uleg_joint       : {p: 180.0, i: 20.0, d: 0.9}
 
-      FL_lleg_joint       : {p: 45.0, i: 0.0, d: 0.5}
-      FR_lleg_joint       : {p: 45.0, i: 0.0, d: 0.5}
-      BL_lleg_joint       : {p: 45.0, i: 0.0, d: 0.5}
-      BR_lleg_joint       : {p: 45.0, i: 0.0, d: 0.5}
+      FL_lleg_joint       : {p: 180.0, i: 20.0, d: 0.9}
+      FR_lleg_joint       : {p: 180.0, i: 20.0, d: 0.9}
+      BL_lleg_joint       : {p: 180.0, i: 20.0, d: 0.9}
+      BR_lleg_joint       : {p: 180.0, i: 20.0, d: 0.9}
